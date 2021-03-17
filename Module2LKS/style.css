@@ -14,7 +14,7 @@ body{
     position: relative;
     bottom: 2px;
     left: 2px;
-    overflow:scroll;
+    overflow: auto;
 }
 .child1{
     background-color: #f1ae89;
