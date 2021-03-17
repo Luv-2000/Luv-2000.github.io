@@ -65,7 +65,7 @@ body{
     padding: 3%;
 }
 
-@media(max-width:991px){
+@media(min-width:768px) and (max-width:991px){
     .parent>div{
         float: left;
         margin:0% 0% 4% 4%;
@@ -73,8 +73,8 @@ body{
         width: 45%;
         box-sizing: border-box;
     }   
-.child3{
-    clear:left;
+    .parent>.child3{
+     width:94%;
 }
 }
 @media(max-width:767px){
@@ -85,10 +85,5 @@ body{
         width: 90%;
         box-sizing: border-box;
     }   
-    .child2{
-        clear:left;
-    }
-    .child3{
-        clear:left;
-    }
+
     }
