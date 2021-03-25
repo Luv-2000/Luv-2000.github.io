@@ -1,0 +1,132 @@
+body {
+    background-color: #f05454 ;
+    font-size: 1em ;
+}
+#header-nav{
+    background-color: #f5c0c0;
+    border-radius: 0%;
+}
+#navtitle{
+
+    color: #f05454;
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#food-llc:hover {
+    text-decoration: none;
+}
+#navtitle:hover{
+    color: #ac0d0d;
+    border-radius: 5%;
+}
+#btn-style{
+    background-color: #f05454;
+}
+#btn-style span{
+    background-color: #f5c0c0;
+}
+#nav-list{
+    text-align: center;
+    background-color: #f5c0c0;
+
+}
+#nav-list li a{
+    color: #f05454;
+    font-size: 2em;
+}
+#nav-list li a:hover{
+    color: #f5c0c0;
+    background-color:#f05454 ;
+}
+.title{
+    text-align: center;
+    font-size: 5em;
+    color: white;
+    font-weight: bold;
+    margin: 4% 0 4% 0;
+}
+.heading{
+    font-size:  1.5em;
+    position: relative;
+    bottom: 2px;
+    left: 2px;
+}
+.child1{
+    background-color: #865858;
+    color: white;
+}
+.child1>.heading{
+    background-color: white;
+    color: #865858;
+}
+.child2{
+
+    background-color: #f58634;
+    color: white;
+}
+.child2>.heading{
+    background-color: white;
+    color: #f58634;
+}
+.child3{
+    background-color: #1a508b;
+    color: white;
+}
+.child3>.heading{
+    background-color: white;
+    color: #1a508b;
+}
+.parent>div{
+    float: left;
+    margin:0% 0% 2.5% 2.5%;
+    border: 2px solid white;
+    width: 30%;
+    box-sizing: border-box;
+}
+.parent>div>h1{
+    text-align: right;
+    box-sizing: content-box;
+    border: 2px solid white;
+    margin: 0%;
+    
+}
+.heading{
+    margin:auto;
+    border: 2px solid white;
+    width:35%;
+    text-align: center;
+    box-sizing: border-box;
+    font-size: 2.5em;
+}
+.content{
+    padding: 3%;
+    font-size: 2em;
+}
+#btt{
+    color: rgb(166, 166, 241);
+}
+
+@media(min-width:768px) and (max-width:991px){
+    .parent>div{
+        float: left;
+        margin:0% 0% 4% 4%;
+        border: 2px solid white;
+        width: 45%;
+        box-sizing: border-box;
+    }   
+    .parent>.child3{
+     width:94%;
+}
+}
+@media(max-width:767px){
+    .parent>div{
+        float: left;
+        margin:0% 0% 6% 6%;
+        border: 2px solid white;
+        width: 90%;
+        box-sizing: border-box;
+    }   
+
+    }
